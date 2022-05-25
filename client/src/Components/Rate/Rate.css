@@ -1,0 +1,45 @@
+.empty > * {
+	color: lightgray;
+}
+.bar span {
+	display: inline-block;
+	width: 2rem;
+	height: 6px;
+	background-color: lightgray;
+}
+.dots * {
+	margin-right: 5px;
+}
+.star * {
+	margin-right: 2.7px;
+}
+.rate-1 .icon:first-child {
+	color: var(--main-color);
+}
+.rate-1 span:first-child {
+	background-color: var(--main-color);
+}
+.rate-2 .icon:nth-of-type(-n + 2) {
+	color: var(--main-color);
+}
+.rate-2 span:nth-of-type(-n + 2) {
+	background-color: var(--main-color);
+}
+.rate-3 .icon:nth-of-type(-n + 3) {
+	color: var(--main-color);
+}
+.rate-3 span:nth-of-type(-n + 3) {
+	background-color: var(--main-color);
+}
+.rate-4 .icon:nth-of-type(-n + 4) {
+	color: var(--main-color);
+}
+.rate-4 span:nth-of-type(-n + 4) {
+	background-color: var(--main-color);
+}
+.rate-5 .icon {
+	color: var(--main-color);
+}
+.rate-5 span {
+	background-color: var(--main-color);
+}

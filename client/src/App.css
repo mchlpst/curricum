@@ -1,0 +1,57 @@
+.App {
+	margin: 1.6rem;
+}
+.App > .inline {
+	display: block;
+}
+
+@media screen and (min-width: 540px) {
+	.App > .inline > div + div {
+		margin-left: 1.6rem;
+	}
+	.App > .inline > div:first-child {
+		min-width: 250px;
+	}
+	.App {
+		max-width: 900px;
+		margin: 1.6rem auto;
+		padding: 0 1.6rem;
+	}
+	.App > .inline {
+		display: flex;
+	}
+}
+@media print {
+	* {
+		-webkit-print-color-adjust: exact !important;
+		color-adjust: exact !important;
+	}
+	.App > .inline {
+		display: flex;
+	}
+	header {
+		display: flex;
+		align-items: center;
+		text-align: left;
+	}
+	header > section:first-child {
+		min-width: 250px !important;
+		margin-right: 1.6rem;
+	}
+	.App > .inline > div:first-child {
+		margin-right: 1.6rem !important;
+	}
+	h2 {
+		margin: 1.6rem 0 !important;
+	}
+	.avatar {
+		width: 80px !important;
+		height: 80px !important;
+	}
+	.skills {
+		page-break-before: always;
+	}
+	.employer:first-of-type {
+		margin-top: 0 !important;
+	}
+}

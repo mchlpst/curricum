@@ -1,0 +1,14 @@
+header {
+	text-align: center;
+}
+@media screen and (min-width: 540px) {
+	header {
+		display: flex;
+		align-items: center;
+		text-align: left;
+	}
+	header > section:first-child {
+		min-width: 250px;
+		margin-right: 1.6rem;
+	}
+}

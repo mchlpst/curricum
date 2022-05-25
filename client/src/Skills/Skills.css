@@ -1,0 +1,6 @@
+.skills div {
+	margin-bottom: 0.8rem;
+}
+.skills .inline {
+	justify-content: space-between;
+}
