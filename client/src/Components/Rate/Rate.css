@@ -1,11 +1,11 @@
 .empty > * {
-	color: lightgray;
+	color: rgba(0,0,0,0.1);
 }
 .bar span {
 	display: inline-block;
 	width: 2rem;
 	height: 6px;
-	background-color: lightgray;
+	background-color: rgba(0,0,0,0.1);
 }
 .dots * {
 	margin-right: 5px;
