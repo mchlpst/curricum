@@ -5,3 +5,6 @@
 .contact > div > div {
 	margin-bottom: 0.8rem;
 }
+.contact .v-center {
+	align-items: center;
+}
