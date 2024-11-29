@@ -17,6 +17,14 @@ const Skills = () => {
         <Rate type="dots" rate={4} />
       </div>
       <div className="inline">
+        <p>Sass</p>
+        <Rate type="dots" rate={5} />
+      </div>
+      <div className="inline">
+        <p>Typescript</p>
+        <Rate type="dots" rate={3} />
+      </div>
+      <div className="inline">
         <p>Vue</p>
         <Rate type="dots" rate={5} />
       </div>
@@ -26,7 +34,7 @@ const Skills = () => {
       </div>
       <div className="inline">
         <p>GraphQL</p>
-        <Rate type="dots" rate={4} />
+        <Rate type="dots" rate={5} />
       </div>
       <div className="inline">
         <p>Express.js</p>
@@ -37,11 +45,11 @@ const Skills = () => {
         <Rate type="dots" rate={3} />
       </div>
       <div className="inline">
-        <p>Adobe Illustrator</p>
-        <Rate type="dots" rate={3} />
+        <p>Git</p>
+        <Rate type="dots" rate={4} />
       </div>
       <div className="inline">
-        <p>Git</p>
+        <p>Node.js</p>
         <Rate type="dots" rate={4} />
       </div>
     </section>
