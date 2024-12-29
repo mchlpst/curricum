@@ -1,28 +1,28 @@
 {
-	"dependencies": {
-		"express": "^4.18.1"
-	},
-	"name": "cv",
-	"version": "1.0.0",
-	"main": "server.js",
-	"engines": {
-		"node": "16.x"
-	},
-	"devDependencies": {},
-	"scripts": {
-		"start": "node server.js",
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"heroku-postbuild": "cd client && npm install && npm run build"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/mchlpst/cv.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/mchlpst/cv/issues"
-	},
-	"homepage": "https://github.com/mchlpst/cv#readme",
-	"description": ""
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "name": "cv",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "20.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchlpst/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchlpst/cv/issues"
+  },
+  "homepage": "https://github.com/mchlpst/cv#readme",
+  "description": ""
 }
