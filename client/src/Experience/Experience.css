@@ -1,4 +1,25 @@
 .employer {
 	margin: 3.2rem 0;
 }
-
+.employer__specs {
+	display: flex;
+	gap: 1rem;
+	margin: 0.3rem 0;
+}
+.employer__specs em {
+		display: block;
+		font-weight: 400;
+		font-style: normal;
+		color: var(--main-color);
+	}
+	.employer__specs p::after {
+		content: "|";
+		margin-left: 1rem;
+	}
+.employer__info {
+	h4 {
+		font-weight: 500;
+		font-size: 2rem;
+		margin-bottom: 0.5rem;
+	}
+}

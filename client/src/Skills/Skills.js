@@ -1,56 +1,50 @@
 import React from "react";
 import Heading from "../Components/Heading/Heading";
-import Rate from "../Components/Rate/Rate";
 
 import "./Skills.css";
+import LogoSvg from "../Components/Logos/Logos";
 
 const Skills = () => {
   return (
     <section className="skills">
       <Heading title="Vaardigheden" />
-      <div className="inline">
-        <p>ES6</p>
-        <Rate type="dots" rate={4} />
-      </div>
-      <div className="inline">
-        <p>REACT</p>
-        <Rate type="dots" rate={4} />
-      </div>
-      <div className="inline">
-        <p>Sass</p>
-        <Rate type="dots" rate={5} />
-      </div>
-      <div className="inline">
-        <p>Typescript</p>
-        <Rate type="dots" rate={3} />
-      </div>
-      <div className="inline">
-        <p>Vue</p>
-        <Rate type="dots" rate={5} />
-      </div>
-      <div className="inline">
-        <p>Nuxt.js</p>
-        <Rate type="dots" rate={5} />
-      </div>
-      <div className="inline">
-        <p>GraphQL</p>
-        <Rate type="dots" rate={5} />
-      </div>
-      <div className="inline">
-        <p>Express.js</p>
-        <Rate type="dots" rate={3} />
-      </div>
-      <div className="inline">
-        <p>PHP</p>
-        <Rate type="dots" rate={3} />
-      </div>
-      <div className="inline">
-        <p>Git</p>
-        <Rate type="dots" rate={4} />
-      </div>
-      <div className="inline">
-        <p>Node.js</p>
-        <Rate type="dots" rate={4} />
+      <SkillContainer
+        title="Programmeer talen"
+        logos={["typescript-square", "javascript-square", "php-square"]}
+      />
+      <SkillContainer
+        title="Front-end talen"
+        logos={["react-square", "vue-square", "sass-square"]}
+      />
+      <SkillContainer
+        title="Back-end talen"
+        logos={[
+          "next-js-square",
+          "nuxt-js-square",
+          "express-js-square",
+          "laravel-square",
+          "node-js-square",
+          "graphql-square",
+          "apollo-square",
+        ]}
+      />
+      <SkillContainer title="Cloud" logos={["aws-square", "heroku-square"]} />
+      <SkillContainer
+        title="Databases"
+        logos={["mongo-db-square", "postgresql-square", "mysql-square"]}
+      />
+    </section>
+  );
+};
+
+const SkillContainer = (props) => {
+  return (
+    <section className="skill__container">
+      <h3 className="skill__title">{props.title}</h3>
+      <div className="skill__logo-container">
+        {props.logos.map((logo) => (
+          <LogoSvg logo={logo} square />
+        ))}
       </div>
     </section>
   );

@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import './Avatar.css';
+import "./Avatar.css";
 
 const Avatar = () => {
-	return (
-		<div
-			className="avatar"
-			style={{ backgroundImage: `url('/portrait.jpg')` }}
-		></div>
-	);
+  return (
+    <div
+      className="avatar"
+      style={{ backgroundImage: `url('/images/portrait.jpg')` }}></div>
+  );
 };
 export default Avatar;

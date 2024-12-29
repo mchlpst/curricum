@@ -1,0 +1,11 @@
+.project__description-container p + p {
+  margin-top: 1.3rem;
+}
+.project__logo-container {
+  display: flex;
+  gap: 1.6rem;
+  margin: 1rem 0;
+}
+.project + .project {
+  margin-top: 3.2rem;
+}

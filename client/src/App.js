@@ -6,6 +6,7 @@ import Experience from "./Experience/Experience";
 import Information from "./Information/Information";
 import Profile from "./Profile/Profile";
 import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Profile />
           <Experience />
           <Skills />
+          <Projects />
         </div>
       </section>
     </div>
