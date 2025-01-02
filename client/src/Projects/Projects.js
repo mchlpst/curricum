@@ -25,6 +25,7 @@ const Projects = () => {
         title="Brand websites"
         description="<p>Voor ID&T heb ik een modulair & dynamisch platform gebouwd. De wens van de klant was standaard blokken die elke vorm kunnen aannemen.</p><p> Vertaald naar code heb ik blokken gebouwd die altijd dezelfde data binnen krijgen, maar compleet aanpasbaar zijn. Het is ook mogelijk om blokken compleet te vervangen door je eigen custom blok.</p><p>Ook hebben we een eigen <i>lokale cache</i> gebouwd. Dit was de wens van de klant. Ze willen kunnen blijven zien hoe de cache werkt zodat bij problemen het te traceren is.</p>"
         logos={[
+          "typescript-square",
           "vue-square",
           "sass-square",
           "nuxt-js-square",
