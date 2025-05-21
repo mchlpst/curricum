@@ -1,11 +1,47 @@
 .project__description-container p + p {
   margin-top: 1.3rem;
 }
+.project__description-container p + section {
+  margin: 1.3rem 0;
+}
+.project__description-container ul{
+  margin-left: 2rem
+}
+.project__description-container ul li + li {
+  margin-top: 0.2rem;
+}
 .project__logo-container {
   display: flex;
   gap: 1.6rem;
   margin: 1rem 0;
 }
+.project__details {
+  display: flex;
+  margin: 1rem 0;
+  font-weight: 400;
+}
+.project__specs {
+	display: flex;
+  align-items: baseline;
+	gap: 1rem;
+	margin: 0.3rem 0;
+}
+.project__specs em {
+		display: block;
+		font-weight: 400;
+		font-style: normal;
+		color: var(--main-color);
+	}
+	.project__specs h3::after {
+		content: "|";
+		margin-left: 1rem;
+	}
 .project + .project {
   margin-top: 3.2rem;
+}
+.project__logo-text {
+	display: none;
+}
+.project__skill-title {
+  margin-top: 1rem;
 }

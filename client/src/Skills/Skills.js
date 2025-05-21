@@ -10,28 +10,28 @@ const Skills = () => {
       <Heading title="Vaardigheden" />
       <SkillContainer
         title="Programmeer talen"
-        logos={["typescript-square", "javascript-square", "php-square"]}
+        logos={["typescript", "javascript", "php"]}
       />
       <SkillContainer
         title="Front-end talen"
-        logos={["react-square", "vue-square", "sass-square"]}
+        logos={["react", "vue", "sass"]}
       />
       <SkillContainer
         title="Back-end talen"
         logos={[
-          "next-js-square",
-          "nuxt-js-square",
-          "express-js-square",
-          "laravel-square",
-          "node-js-square",
-          "graphql-square",
-          "apollo-square",
+          "next-js",
+          "nuxt-js",
+          "express-js",
+          "laravel",
+          "node-js",
+          "graphql",
+          "apollo",
         ]}
       />
-      <SkillContainer title="Cloud" logos={["aws-square", "heroku-square"]} />
+      <SkillContainer title="Cloud" logos={["aws", "heroku"]} />
       <SkillContainer
         title="Databases"
-        logos={["mongo-db-square", "postgresql-square", "mysql-square"]}
+        logos={["mongo-db", "postgresql", "mysql"]}
       />
     </section>
   );
@@ -42,8 +42,11 @@ const SkillContainer = (props) => {
     <section className="skill__container">
       <h3 className="skill__title">{props.title}</h3>
       <div className="skill__logo-container">
-        {props.logos.map((logo) => (
-          <LogoSvg logo={logo} square />
+        {props.logos.map((logo, index) => (
+          <React.Fragment key={index}>
+            <LogoSvg logo={logo} square />
+            <p className="skill__logo-text">{logo}</p>
+          </React.Fragment>
         ))}
       </div>
     </section>

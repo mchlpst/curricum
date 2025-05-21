@@ -19,6 +19,23 @@ const Profile = () => {
         kwaliteiten wil ik graag een waardevolle bijdrage leveren aan uw
         organisatie.
       </p>
+      <Heading title="Wie ben ik?" />
+      <p>
+        Naast mijn werk als developer ben ik een trotse vader van twee jongen en
+        heb ik een prachtige vrouw. Wij hebben elkaar ontmoet op de
+        korfbalvereniging en zijn daar nog steeds actief. Als spelers en als
+        druk bezette vrijwilligers. Ik train zelf de selectie (het tweede team)
+        en ben daar elk weekend te vinden. Daarnaast sport ik zelf ook graag. Ik
+        sta zeker een aantal keer per week in de sportschool. Om mezelf fit te
+        houden, maar ook om nog lang te kunnen spelen met mijn jongens.
+      </p>
+      <p>
+        Ik heb ook een grote passie voor muziek. Mijn werk in de Marktkantine
+        heeft me veel gebracht op het gebied van muziek. Ik vond het ook altijd
+        erg leuk om op deze manier nieuwe artiesten of genres te ontdekken die
+        ik anders nooit gehoord zou hebben. Fietsen doe ik graag, maar nog
+        liever met een koptelefoon op zoekend naar nieuwe muziek.
+      </p>
     </section>
   );
 };

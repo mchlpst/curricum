@@ -59,4 +59,11 @@
 	.employer:first-of-type {
 		margin-top: 0 !important;
 	}
+	.skill__logo-text, .project__logo-text {
+		display: block !important;
+		text-transform: capitalize;
+	}
+	.skill__logo-container .logo, .project__logo-container .logo {
+		display: none;
+	}
 }

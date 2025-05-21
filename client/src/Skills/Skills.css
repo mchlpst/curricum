@@ -14,3 +14,6 @@
 .skill__title {
 	margin-bottom: 8px;
 }
+.skill__logo-text {
+	display: none;
+}
